@@ -40,7 +40,7 @@ cp .env.local.example .env.local
 
 ```ini
 NEXT_PUBLIC_RAILGUN_TEST_MNEMONIC="test test test ..."
-NEXT_PUBLIC_RAILGUN_TEST_RPC="https://sepolia.infura.io/v3/xxxxx"
+NEXT_PUBLIC_RAILGUN_TEST_RPC="https://eth-sepolia.g.alchemy.com/v2/xxxxx"
 ```
 
 ### 4. テストネットトークンを準備
