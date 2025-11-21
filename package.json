@@ -1,0 +1,38 @@
+{
+  "name": "railgun-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@railgun-community/shared-models": "7.6.1",
+    "@railgun-community/wallet": "10.4.0",
+    "buffer": "^6.0.3",
+    "classic-level": "^3.0.0",
+    "dotenv": "^17.2.3",
+    "ethers": "6.13.1",
+    "next": "16.0.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "snarkjs": "^0.7.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/level-js": "^4.0.5",
+    "@types/leveldown": "^4.0.6",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/snarkjs": "^0.7.9",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.3",
+    "level-js": "^6.1.0",
+    "localforage": "^1.10.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
