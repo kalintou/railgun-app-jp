@@ -10,6 +10,7 @@ import {
 } from "@railgun-community/wallet";
 import { TEST_NETWORK, TEST_MNEMONIC } from "@/lib/constants";
 import { getCurrentEncryptionKey } from "./encryption-browser";
+import { getCurrentTestMnemonic } from "./wallet"; 
 
 // ローカルに wallet ID を保存するためのキー（文字列のみ保存し、秘密鍵などは保存しない）
 const WALLET_ID_STORAGE_KEY = "railgun-demo-private-wallet-id";
@@ -65,7 +66,7 @@ export const createRailgunWalletForCurrentUser =
 
     const railgunWalletInfo = await createRailgunWallet(
       encryptionKey,
-      TEST_MNEMONIC,
+      getCurrentTestMnemonic(),
       creationBlockNumberMap,
     );
 

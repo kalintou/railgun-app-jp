@@ -35,8 +35,8 @@ type DevShellProps = {
     eoaAddress: string;
 };
 
-export function DevShell({ eoaAddress }: DevShellProps) {
-    const [currentTab, setCurrentTab] = useState<TabKey>("eoa");
+export function DevShell() {
+  const [currentTab, setCurrentTab] = useState<TabKey>("eoa");
 
     const tabButtonClass = (active: boolean) =>
         `flex flex-col px-3 py-1.5 rounded-xl text-xs transition ${
